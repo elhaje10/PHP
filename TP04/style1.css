@@ -1,0 +1,66 @@
+
+/* styles pour TP04 programmation web */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(150, 150, 150);
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+nav p {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+nav a {
+    display: inline-block;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+nav a img {
+    width: 50px;
+    height: 50px;
+    box-shadow: none;
+    border-radius: none;
+}
+
+a {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+}
+
+a img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 3px 20px black;
+    border-radius: 30px;
+}
+
+
+#player {
+    display: inline-block;
+    max-width: 300px;
+}
+
+#player img {
+    width: 300px;
+    height: 300px;
+}

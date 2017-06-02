@@ -1,0 +1,44 @@
+
+/* styles pour TP03 programmation web */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(150, 150, 150);
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse
+}
+
+table, tr, td, th {
+    border: 1px solid grey;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+}
+
+a img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 3px 20px black;
+    border-radius: 50px;
+}
